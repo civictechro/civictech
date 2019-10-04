@@ -58,14 +58,15 @@ yarn clean
 # To build
 yarn build
 
-# To test SSR (for Lighthouse etc.)
-yarn ssr
+# To serve website locally
+yarn serve
 
 # To format JS (precommit)
 yarn format
 
-# To generate favicons (included in `build`)
-yarn build:favicons
+# To lint JS (precommit)
+yarn lint
+
 ```
 
 ## Author
