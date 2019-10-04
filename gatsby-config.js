@@ -1,16 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: "CivicTech Romania",
-    description:
-      "Împreună continuam digitalizarea serviciilor destinate cetățenilor",
-    author: "@civictechro",
+    title: 'CivicTech Romania',
+    description: 'Împreună continuam digitalizarea serviciilor destinate cetățenilor',
+    author: '@civictechro',
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
+    'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "images",
+        name: 'images',
         path: `${__dirname}/static/images`,
       },
     },
@@ -19,29 +18,29 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: "Roboto",
-            subsets: ["latin", "latin-ext"],
+            family: 'Roboto',
+            subsets: ['latin', 'latin-ext'],
           },
           {
-            family: "Noto Serif",
-            variants: ["700"],
-            subsets: ["latin", "latin-ext"],
+            family: 'Noto Serif',
+            variants: ['700'],
+            subsets: ['latin', 'latin-ext'],
           },
         ],
-        formats: ["woff", "woff2"],
+        formats: ['woff', 'woff2'],
       },
     },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: "civictech",
-        short_name: "civictech",
-        start_url: "/",
-        background_color: "#009999",
-        theme_color: "#009999",
-        display: "minimal-ui",
+        name: 'civictech',
+        short_name: 'civictech',
+        start_url: '/',
+        background_color: '#009999',
+        theme_color: '#009999',
+        display: 'minimal-ui',
         icon: `${__dirname}/static/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
@@ -55,21 +54,20 @@ module.exports = {
         },
       },
     },
-    "gatsby-plugin-sass",
+    'gatsby-plugin-sass',
     {
-      resolve: "gatsby-plugin-web-font-loader",
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ["PT Serif"],
+          families: ['PT Serif'],
         },
         custom: {
-          families: ["Inter"],
-          urls: ["/fonts/fonts.css"],
+          families: ['Inter'],
+          urls: ['/fonts/fonts.css'],
         },
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

@@ -4,4 +4,11 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+export const onServiceWorkerUpdateReady = () => {
+  const answer = window.confirm(
+    `Situl Civictech România a fost updatat! Vrei să reîncarci pagina pentru a vedea noutățile?`,
+  )
+  if (answer === true) {
+    window.location.reload()
+  }
+}

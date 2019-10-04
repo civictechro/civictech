@@ -120,16 +120,16 @@ const Layout = ({ children }) => (
               <div className={'col-3'}>
                 <div className={'widget__item'}>
                   <div className={'social'}>
-                    <a href="https://facebook.com/civictechro" target={'_blank'} title={'Facebook'}>
+                    <Anchor href="https://facebook.com/civictechro" title={'Facebook Civictech Romania'}>
                       <Facebook strokeWidth={2} />
-                    </a>
+                    </Anchor>
 
-                    <a href="https://github.com/civictechro" target={'_blank'} title={'GitHub'}>
+                    <Anchor href="https://github.com/civictechro" title={'GitHub Civictech Romania'}>
                       <GitHub strokeWidth={2} />
-                    </a>
-                    <a href="mailto:office@civictech.ro" target={'_blank'} title={'Email'}>
+                    </Anchor>
+                    <Anchor href="mailto:office@civictech.ro" title={'Email Civictech Romania'}>
                       <Mail strokeWidth={2} />
-                    </a>
+                    </Anchor>
                   </div>
                 </div>
               </div>
