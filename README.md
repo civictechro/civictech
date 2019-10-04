@@ -1,0 +1,72 @@
+<p align="center">
+  <a href="https://github.com/civictechro" title="civictech romania">
+    <img
+      src="https://civictech.ro/public/images/civictech_logo.svg"
+      height="50"
+      alt="civictech romania"
+    />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <!-- <a href="https://circleci.com/gh/civictechro">
+    <img
+      src="https://circleci.com/gh/civictechro.svg?style=svg&circle-token="
+      alt="CircleCI"
+    />
+  </a> -->
+  <!-- this works with Circle CI -->
+  <!-- <a href="https://greenkeeper.io/">
+    <img
+      src="https://badges.greenkeeper.io/fabe/gatsby-universal.svg"
+      alt="Greenkeeper badge"
+    />
+  </a> -->
+  <a href="https://github.com/prettier/prettier">
+    <img
+      src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"
+      alt="styled with prettier"
+    />
+  </a>
+  <!-- <a href="https://app.netlify.com/sites/civictech/deploys">
+    <img
+      src="https://api.netlify.com/api/v1/badges/9da70e86-2739-4329-81ac-cd7192231c19/deploy-status"
+      alt="Netlify Status"
+    />
+  </a> -->
+</p>
+
+---
+
+## Lighthouse scores (on [Netlify](https://netlify.com))
+
+[![Lighthouse scores (on Netlify)](https://lighthouse.now.sh/?perf=100&pwa=100&a11y=100&bp=100&seo=100)](https://circleci.com/gh/civictechro/civictechro)
+
+## Usage
+
+```bash
+
+# To develop
+yarn start
+
+# To develop after cleaning /.cache
+yarn clean
+
+# To build
+yarn build
+
+# To test SSR (for Lighthouse etc.)
+yarn ssr
+
+# To format JS (precommit)
+yarn format
+
+# To generate favicons (included in `build`)
+yarn build:favicons
+```
+
+## Author
+
+- Cezar Neaga ([@cezarneaga](https://twitter.com/cezarneaga)) - [Citizen Next](https://citizennext.ro)
