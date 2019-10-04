@@ -30,12 +30,13 @@
       alt="styled with prettier"
     />
   </a>
-  <!-- <a href="https://app.netlify.com/sites/civictech/deploys">
+
+  <a href="https://app.netlify.com/sites/civictechro/deploys">
     <img
-      src="https://api.netlify.com/api/v1/badges/9da70e86-2739-4329-81ac-cd7192231c19/deploy-status"
+      src="https://api.netlify.com/api/v1/badges/b45fad82-0cbe-4f3d-96d4-5f342ecf294c/deploy-status"
       alt="Netlify Status"
     />
-  </a> -->
+  </a>
 </p>
 
 ---
