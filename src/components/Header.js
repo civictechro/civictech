@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
             <div className={'container'}>
               <div className={'top-menu'}>
                 <div className={'logo'}>
-                  <Link to="/" title={'Civictech Romania'}>
+                  <Link to="/" title={'Civictech România'}>
                     <img alt={'Logo'} src={logo} />
                   </Link>
                 </div>
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
             <div className={'container'}>
               <div className={'top-menu'}>
                 <div className={'logo'}>
-                  <Link to="/" title={'Civictech Romania'}>
+                  <Link to="/" title={'Civictech România'}>
                     <img alt={'Logo'} src={logoWhite} />
                   </Link>
                 </div>

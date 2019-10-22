@@ -22,9 +22,9 @@ const IndexPage = () => (
       </h1>
       <div className={'call-to-action transparent'}>
         <div className={'button green'}>
-          <Anchor href="/members">Alătură-ne</Anchor>
+          <Anchor href="/#members">Alătură-te</Anchor>
 
-          <Anchor href="/projects">Vezi proiecte</Anchor>
+          <Anchor href="/#projects">Vezi proiecte</Anchor>
         </div>
       </div>
     </div>
@@ -41,35 +41,33 @@ const IndexPage = () => (
 
           <TabPanel>
             <p>
-              Lansat în primăvara lui 2017, Civictech Romania a pornit ca un start-up non-guvernamental și non-profit,
-              fondat fiind de ex-bursieri GovITHub. Ne-am propus să continuăm, alături de parteneri ai societății
-              civile, proiecte care să aducă România mai aproape de viziunea care ne unește.
+              Lansat în primăvara lui 2017, Civictech România a pornit ca un start-up neguvernamental și non profit,
+              fondat fiind de ex-bursieri <Anchor href="https://ithub.gov.ro">GovITHub</Anchor>. Ne-am propus să
+              continuăm, alături de parteneri ai societății civile, proiecte care să aducă România mai aproape de
+              viziunea care ne unește.
             </p>
 
             <p>
-              După mai bine de doi ani de activitate si crestere susținută, în 2019, Civictech Romania evolueaza catre
+              După mai bine de doi ani de activitate si crestere susținută, în 2019, Civictech România evolueaza catre
               ceea ce numele nostru a intuit neintentionat inca de la bun inceput: o viitoare federatie de organizatii
               care au in misiune o Romanie informatizata si conectata prin digitalizare.
             </p>
 
             <p>
-              Citizen Next și CivicNet au devenit astfel primele organizatii co-fondatoare ale viitoarei federatiei si
-              continuatoarele viziunii si misiunii Civictech Romania. Lansam astfel invitatia catre toate organizatiile
+              Citizen Next și CivicNet au devenit astfel primele organizatii cofondatoare ale viitoarei federatiei si
+              continuatoarele viziunii si misiunii Civictech România. Lansam astfel invitatia catre toate organizatiile
               care lucreaza la proiecte civice de digitalizare sa ni se alature. Impreuna, ca parteneri egali, vrem sa
               dezvoltam aceasta federatie, sa ii definim noua identitate si sa ii crestem impactul in societate.
             </p>
           </TabPanel>
           <TabPanel>
             <p>
-              <span className="brand">
-                CivicTech<sup>RO</sup>
-              </span>{' '}
-              urmărește viziunea unei societăți românești deschise, transparente și conectate prin servicii publice
-              digitale.
+              Civictech România urmărește viziunea unei societăți românești deschise, transparente și conectate prin
+              servicii publice digitale.
             </p>
 
             <p>
-              Prin dialog cu cetățenii și parteneriate cu instituții publice, companii private și organizații non-profit
+              Prin dialog cu cetățenii și parteneriate cu instituții publice, companii private și organizații non profit
               vrem să definim, dezvoltăm și împreună cu voi să lansăm soluții digitale eficiente și prietenoase pentru
               serviciile publice românești, bazate pe interoperabilitate și tehnologii open source.
             </p>
@@ -110,10 +108,7 @@ const IndexPage = () => (
             <h2 className="principles">Energie pozitivă</h2>
             <p>
               Vrem să redăm încrederea partenerilor noștri că nevoile lor pot găsi răspunsuri pozitive, deschise și
-              oneste. Ne dorim asta de la toți membrii comunității{' '}
-              <span className="brand">
-                CivicTech<sup>RO</sup>
-              </span>
+              oneste. Ne dorim asta de la toți membrii comunității Civictech România
             </p>
             <h2 className="principles">Comunitate</h2>
             <p>
@@ -131,8 +126,8 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="call-to-action green">
-      <div id="members">
+    <div className="call-to-action green" id="members">
+      <div>
         <div className={'container'}>
           <div className={'call-to-action__content'}>
             <h1>ORGANIZAȚII MEMBRE</h1>
@@ -145,7 +140,7 @@ const IndexPage = () => (
               </Anchor>
             </div>
             <div className={'button full'}>
-              <Anchor href="mailto:office@civictech.ro">Alătură-ne</Anchor>
+              <Anchor href="mailto:office@civictech.ro">Alătură-te</Anchor>
             </div>
           </div>
         </div>
@@ -199,7 +194,7 @@ const IndexPage = () => (
               CivicTech<sup>RO</sup>
             </span>{' '}
             și viziunea unei societăți digitale eficiente. Alături de instituții publice, companii private, organizații
-            non-guvernamentale și grupuri de inițiativă civică lucrăm pentru a construi împreună soluții digitale cu
+            neguvernamentale și grupuri de inițiativă civică lucrăm pentru a construi împreună soluții digitale cu
             impact direct pentru cetățeni și societate.
           </p>
           <Partners />

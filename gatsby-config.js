@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'CivicTech Romania',
+    title: 'Civictech România',
     description: 'Împreună continuam digitalizarea serviciilor destinate cetățenilor',
     author: '@civictechro',
   },

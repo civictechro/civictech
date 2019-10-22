@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://github.com/civictechro" title="civictech romania">
+  <a href="https://github.com/civictechro" title="Civictech România">
     <img
       src="https://civictech.ro/public/images/civictech_logo.svg"
       height="50"
-      alt="civictech romania"
+      alt="Civictech România"
     />
   </a>
 </p>

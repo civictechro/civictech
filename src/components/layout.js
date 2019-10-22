@@ -120,14 +120,14 @@ const Layout = ({ children }) => (
               <div className={'col-3'}>
                 <div className={'widget__item'}>
                   <div className={'social'}>
-                    <Anchor href="https://facebook.com/civictechro" title={'Facebook Civictech Romania'}>
+                    <Anchor href="https://facebook.com/civictechro" title={'Facebook Civictech România'}>
                       <Facebook strokeWidth={2} />
                     </Anchor>
 
-                    <Anchor href="https://github.com/civictechro" title={'GitHub Civictech Romania'}>
+                    <Anchor href="https://github.com/civictechro" title={'GitHub Civictech România'}>
                       <GitHub strokeWidth={2} />
                     </Anchor>
-                    <Anchor href="mailto:office@civictech.ro" title={'Email Civictech Romania'}>
+                    <Anchor href="mailto:office@civictech.ro" title={'Email Civictech România'}>
                       <Mail strokeWidth={2} />
                     </Anchor>
                   </div>
@@ -138,7 +138,7 @@ const Layout = ({ children }) => (
             <div className={'copyright'}>
               <p>
                 Copyright {new Date().getFullYear()}, {` `}{' '}
-                <a href="https:/civictech.ro" title={'Civictech Romania'}>
+                <a href="https:/civictech.ro" title={'Civictech România'}>
                   <span className="brand">
                     CivicTech<sup>RO</sup>
                   </span>
