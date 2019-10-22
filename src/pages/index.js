@@ -184,13 +184,10 @@ const IndexPage = () => (
         <div className={'call-to-action__content'}>
           <h1>PARTENERI</h1>
           <p>
-            Ne onorează să colaborăm cu cei care împărtășesc principiile{' '}
-            <span className="brand">
-              CivicTech<sup>RO</sup>
-            </span>{' '}
-            și viziunea unei societăți digitale eficiente. Alături de instituții publice, companii private, organizații
-            neguvernamentale și grupuri de inițiativă civică lucrăm pentru a construi împreună soluții digitale cu
-            impact direct pentru cetățeni și societate.
+            Ne onorează să colaborăm cu cei care împărtășesc principiile Civictech România și viziunea unei societăți
+            digitale eficiente. Alături de instituții publice, companii private, organizații neguvernamentale și grupuri
+            de inițiativă civică lucrăm pentru a construi împreună soluții digitale cu impact direct pentru cetățeni și
+            societate.
           </p>
           <Partners />
         </div>

@@ -338,10 +338,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
-
-        @media screen and (max-width: $break-small) {
-          margin: 30px 0;
-        }
+        margin: 30px 0;
 
         a {
           margin: 10px 30px;
