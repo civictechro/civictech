@@ -1,8 +1,7 @@
 import openEnergy from '../../static/images/projects/open-energy.jpg'
 import smartCity from '../../static/images/projects/smart-city.jpg'
-import fdsc from '../../static/images/projects/fdsc.png'
-import dsu from '../../static/images/projects/dsu.png'
-import alba from '../../static/images/projects/alba-iulia.png'
+import citizennext from '../../static/images/citizen-symbol.svg'
+import civicnet from '../../static/images/civicnet-symbol.svg'
 import fiiPregatit from '../../static/images/projects/fiipregatit.png'
 export const projects = [
   {
@@ -10,23 +9,23 @@ export const projects = [
     img: openEnergy,
     url: 'https://citizennext.ro',
     percent: 100,
-    client: 'Fundația pentru Dezvoltarea Societății Civile',
-    clientLogo: fdsc,
+    member: 'Citizen Next',
+    memberLogo: citizennext,
   },
   {
     title: 'Alba Iulia Smart City website de prezentare',
     img: smartCity,
-    url: 'https://citizennext.ro',
+    url: 'https://civicnet.ro',
     percent: 100,
-    client: 'Primăria Municipiului Alba Iulia',
-    clientLogo: alba,
+    member: 'Civicnet',
+    memberLogo: civicnet,
   },
   {
     title: 'FiiPregătit.ro - Platforma de informare pentru situații de urgență',
     img: fiiPregatit,
-    url: 'https://citizennext.ro',
+    url: 'https://civicnet.ro',
     percent: 100,
-    client: 'Departamentul pentru Situații de Urgență',
-    clientLogo: dsu,
+    member: 'Civicnet',
+    memberLogo: civicnet,
   },
 ]

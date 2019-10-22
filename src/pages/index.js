@@ -7,8 +7,8 @@ import impreuna from '../../static/images/impreuna-white.svg'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css'
 import { Partners } from '../components/Partners'
-import citizen from '../../static/images/citizen-symbol.svg'
-import civicnet from '../../static/images/civicnet.png'
+import citizen from '../../static/images/citizennext.svg'
+import civicnet from '../../static/images/civicnet.svg'
 import { projects } from '../data/projects'
 const IndexPage = () => (
   <Layout>
@@ -151,16 +151,12 @@ const IndexPage = () => (
       <div id={'projects'}>
         <h1>PROIECTE</h1>
         <p>
-          Proiectele{' '}
-          <span className="brand">
-            CivicTech<sup>RO</sup>
-          </span>{' '}
-          sunt construite cu responsabilitate și respect pentru cetățean și sunt implementate la nivel național și local
-          alături de organizații partenere care sprijină și promovează digitalizarea serviciilor publice. Iată câteva
-          dintre proiectele la care lucrăm:
+          Proiectele Civictech România sunt construite cu responsabilitate și respect pentru cetățean și sunt
+          implementate la nivel național și local alături de organizații partenere care sprijină și promovează
+          digitalizarea serviciilor publice. Iată câteva dintre proiectele la care lucrăm:
         </p>
         <div className="row">
-          {projects.map(({ img, title, url, client, clientLogo, percent }) => (
+          {projects.map(({ img, title, url, member, memberLogo, percent }) => (
             <div className="col-4 col-12-sm rounded">
               <img src={img} alt={title} width="100%" />
 
@@ -175,8 +171,7 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="client">
-                <img src={clientLogo} alt={client} height="30" />
-                <span>{client}</span>
+                Proiect dezvoltat de <img src={memberLogo} alt={member} height="30" />
               </div>
             </div>
           ))}
