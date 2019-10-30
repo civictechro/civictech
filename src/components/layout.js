@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
               <div className={'col-5'}>
                 <div className={'widget__item'}>
                   <div className={'logo'}>
-                    <Link to="/" title={'HiStaff'}>
+                    <Link to="/" title={'Civictech România'}>
                       <img alt={'Logo'} src={logo} />
                     </Link>
                   </div>
@@ -108,13 +108,11 @@ const Layout = ({ children }) => (
               <p>
                 Copyright {new Date().getFullYear()}, {` `}{' '}
                 <a href="https:/civictech.ro" title={'Civictech România'}>
-                  <span className="brand">
-                    CivicTech<sup>RO</sup>
-                  </span>
-                  <br />
-                  <br />
-                  București, Alba Iulia, Cluj, Viena
+                  Civictech România
                 </a>
+                <br />
+                <br />
+                București, Alba Iulia, Cluj, Viena
               </p>
             </div>
           </div>

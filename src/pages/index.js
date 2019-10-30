@@ -157,12 +157,11 @@ const IndexPage = () => (
         </p>
         <div className="row">
           {projects.map(({ img, title, url, member, memberLogo, percent }) => (
-            <div className="col-4 col-12-sm rounded">
-              <img src={img} alt={title} width="100%" />
-
+            <div className="col-4 col-12-sm project rounded">
+              <img src={img} alt={title} width="100%" height="120px" />
               <div className="progress">
                 <div className="details">
-                  <h2 className="projects">{title}</h2>
+                  <h2 className="project-title">{title}</h2>
                 </div>
                 <div className="circle">
                   <strong>{percent}%</strong>
@@ -170,26 +169,13 @@ const IndexPage = () => (
                   <Circle percent={percent} strokeWidth="4" trailWidth="4" strokeColor="#009999" trailColor="#D3D3D3" />
                 </div>
               </div>
-              <div className="client">
-                Proiect dezvoltat de <img src={memberLogo} alt={member} height="30" />
-              </div>
+              <a href={url} title={`${title}, un proiect ${member}`}>
+                <div className="client">
+                  Un proiect <img src={memberLogo} alt={member} height="30" />
+                </div>
+              </a>
             </div>
           ))}
-        </div>
-      </div>
-    </div>
-
-    <div className={'call-to-action'} id="partners">
-      <div className={'container'}>
-        <div className={'call-to-action__content'}>
-          <h1>PARTENERI</h1>
-          <p>
-            Ne onorează să colaborăm cu cei care împărtășesc principiile Civictech România și viziunea unei societăți
-            digitale eficiente. Alături de instituții publice, companii private, organizații neguvernamentale și grupuri
-            de inițiativă civică lucrăm pentru a construi împreună soluții digitale cu impact direct pentru cetățeni și
-            societate.
-          </p>
-          <Partners />
         </div>
       </div>
     </div>

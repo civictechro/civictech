@@ -3,7 +3,34 @@ import smartCity from '../../static/images/projects/smart-city.jpg'
 import citizennext from '../../static/images/citizen-symbol.svg'
 import civicnet from '../../static/images/civicnet-symbol.svg'
 import fiiPregatit from '../../static/images/projects/fiipregatit.png'
+import meserii from '../../static/images/projects/meserii.png'
+import harta from '../../static/images/projects/harta.png'
+import parinte from '../../static/images/projects/parinte.png'
 export const projects = [
+  {
+    title: 'Meserii.ro',
+    img: meserii,
+    url: 'https://civicnet.ro',
+    percent: 100,
+    member: 'Civic Net',
+    memberLogo: civicnet,
+  },
+  {
+    title: 'Harta Serviciilor Sociale',
+    img: harta,
+    url: 'https://citizennext.ro',
+    percent: 65,
+    member: 'Citizen Next',
+    memberLogo: citizennext,
+  },
+  {
+    title: 'Parinte.eu',
+    img: parinte,
+    url: 'https://citizennext.ro',
+    percent: 15,
+    member: 'Citizen Next',
+    memberLogo: citizennext,
+  },
   {
     title: 'Open Energy',
     img: openEnergy,
