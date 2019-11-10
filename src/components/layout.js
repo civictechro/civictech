@@ -89,7 +89,7 @@ const Layout = ({ children }) => (
               <div className={'col-3'}>
                 <div className={'widget__item'}>
                   <div className={'social'}>
-                    <Anchor href="https://facebook.com/civictechro" title={'Facebook Civictech România'}>
+                    <Anchor href="https://facebook.com/CivicTechRomania" title={'Facebook Civictech România'}>
                       <Facebook strokeWidth={2} />
                     </Anchor>
 

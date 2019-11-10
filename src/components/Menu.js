@@ -16,9 +16,6 @@ export function Menu() {
         <Anchor href="/#projects" title={'Proiecte'}>
           Proiecte
         </Anchor>
-        <Anchor href="/#partners" title={'Parteneri'}>
-          Parteneri
-        </Anchor>
         <Anchor href="/#contact" title={'Contact'}>
           Contact
         </Anchor>
