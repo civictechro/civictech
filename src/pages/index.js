@@ -12,9 +12,8 @@ import citizen from '../../static/images/citizennext.svg'
 import civicnet from '../../static/images/civicnet.svg'
 import { projects } from '../data/projects'
 
-const IndexPage = props => {
-  const { nodes } = props.data.allFile
-  const { images } = useStaticQuery(
+const IndexPage = () => {
+  const { allFile } = useStaticQuery(
     graphql`
       query projectImages {
         allFile(filter: { absolutePath: { regex: "/projects/" } }) {
@@ -178,7 +177,7 @@ const IndexPage = props => {
           </p>
           <div className="row">
             {projects.map(({ name, title, url, member, memberLogo, percent }, index) => {
-              const node = nodes.find(node => node.name === name)
+              const node = allFile.nodes.find(node => node.name === name)
               return (
                 <div className="col-4 col-12-sm project rounded" key={index}>
                   <Img fixed={node.childImageSharp.fixed} />
