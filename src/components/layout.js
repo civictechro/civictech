@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main className={window.safari ? 'no-webp' : ''}>{children}</main>
+        <main className={window.safari !== undefined ? 'no-webp' : ''}>{children}</main>
         <footer id="contact">
           <div className={'container'}>
             <div className={'row'}>
