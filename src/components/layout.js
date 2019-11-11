@@ -54,8 +54,8 @@ const Layout = ({ children }) => (
               <div className={'col-2'}>
                 <div className={'widget__item'}>
                   <div className={'links'}>
+                    <h4>Meniu</h4>
                     <ul>
-                      <h4>Meniu</h4>
                       <li>
                         <Anchor href="/#who" title={'Cine suntem'}>
                           Cine suntem
@@ -108,7 +108,7 @@ const Layout = ({ children }) => (
               <p>
                 Copyright {new Date().getFullYear()}, {` `}{' '}
                 <a href="https://civictech.ro" title={'Civictech România'}>
-                  <strong>Civictech România</strong>
+                  Civictech România
                 </a>
                 <br />
                 <br />
