@@ -97,6 +97,13 @@ body {
     padding-top: 100px;
     background: top no-repeat url("../images/main-background.webp");
     background-size: 100% 800px;
+    
+  }
+  main.no-webp{
+    margin-top: -100px;
+    padding-top: 100px;
+    background: top no-repeat url("../images/main-background.png");
+    background-size: 100% 800px;
   }
   .page-header {
     text-align: center;
