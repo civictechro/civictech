@@ -158,7 +158,7 @@ const IndexPage = () => (
         <div className="row">
           {projects.map(({ img, title, url, member, memberLogo, percent }) => (
             <div className="col-4 col-12-sm project rounded">
-              <img src={img} alt={title} width="100%" height="120px" />
+              <img src={img} alt={title} width="100%" height="122px" />
               <div className="progress">
                 <div className="details">
                   <h2 className="project-title">{title}</h2>
