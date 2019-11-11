@@ -1,7 +1,7 @@
 $break-small: 719px;
 
 body {
-  font-family: -apple-system, Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #666;
 
   p {
@@ -36,7 +36,7 @@ body {
   }
 
   a {
-    color: #009999;
+    color: #018282;
 
     &:hover,
     &:active {
@@ -46,11 +46,11 @@ body {
   .sticky-nav-active header {
     background-color: #fdfaff;
     a {
-      color: #009999;
+      color: #018282;
 
       &:hover,
       &:active {
-        color: #009999;
+        color: #018282;
       }
     }
   }
@@ -167,6 +167,7 @@ body {
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 6px;
       display: flex;
+      height: 36.55px;
       align-items: center;
       justify-content: space-between;
       img {
@@ -358,8 +359,7 @@ body {
           justify-content: center;
           font-weight: bold;
           flex-direction: column;
-          color: #009999;
-
+          color: #018282;
           @media screen and (max-width: $break-small) {
             margin: 20px auto;
           }
@@ -391,6 +391,7 @@ body {
       > a:last-child {
         background-color: transparent;
         color: #fff;
+        font-weight: 800;
         &:hover {
           background: #006666;
           border-color: #006666;
@@ -400,8 +401,9 @@ body {
     }
     .button.full {
       > a:last-child {
-        background-color: #009999;
+        background-color: #018282;
         color: #fff;
+        font-weight: 800;
         &:hover {
           background: #006666;
           border-color: #006666;
@@ -436,7 +438,7 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: #009999;
+        color: #018282;
 
         @media screen and (max-width: $break-small) {
           margin: 20px auto;
@@ -581,14 +583,14 @@ body {
 
               &:hover,
               &:active {
-                color: #009999;
+                color: #018282;
               }
             }
           }
         }
 
         .links__special {
-          background-color: #009999;
+          background-color: #018282;
           color: #ffffff;
           border-radius: 4px;
           padding: 2px 5px;
