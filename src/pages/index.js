@@ -19,8 +19,8 @@ const IndexPage = () => {
         allFile(filter: { absolutePath: { regex: "/projects/" } }) {
           nodes {
             childImageSharp {
-              fixed(width: 281, height: 122, traceSVG: { color: "rgb(40, 149, 149)", threshold: 50 }) {
-                ...GatsbyImageSharpFixed_tracedSVG
+              fluid(maxWidth: 350, maxHeight: 122, traceSVG: { color: "rgb(40, 149, 149)", threshold: 50 }) {
+                ...GatsbyImageSharpFluid_tracedSVG
               }
             }
             name
@@ -180,7 +180,7 @@ const IndexPage = () => {
               const node = allFile.nodes.find(node => node.name === name)
               return (
                 <div className="col-4 col-12-sm project rounded" key={index}>
-                  <Img fixed={node.childImageSharp.fixed} />
+                  <Img fluid={node.childImageSharp.fluid} />
                   <div className="progress">
                     <div className="details">
                       <h2 className="project-title">{title}</h2>
