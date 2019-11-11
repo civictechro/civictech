@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
     const iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i)
     const webkit = !!ua.match(/WebKit/i)
     const iOSSafari = iOS && webkit && !ua.match(/CriOS/i)
-    const webp = window.safari === undefined || !iOSSafari ? 'webp' : ''
+    const webp = window.safari !== undefined ? '' : iOSSafari ? '' : 'webp'
     setMainClass(webp)
   }, [])
   return (
