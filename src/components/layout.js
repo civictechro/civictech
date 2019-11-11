@@ -108,7 +108,7 @@ const Layout = ({ children }) => (
               <p>
                 Copyright {new Date().getFullYear()}, {` `}{' '}
                 <a href="https://civictech.ro" title={'Civictech România'}>
-                  Civictech România
+                  <strong>Civictech România</strong>
                 </a>
                 <br />
                 <br />
