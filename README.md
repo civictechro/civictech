@@ -43,7 +43,7 @@
 
 ## Lighthouse scores (on [Netlify](https://netlify.com))
 
-[![Lighthouse scores (on Netlify)](https://lighthouse.now.sh/?perf=100&pwa=100&a11y=95&bp=100&seo=100)](https://circleci.com/gh/civictechro/civictechro)
+[![Lighthouse scores (on Netlify)](https://lighthouse.now.sh/?perf=99&pwa=100&a11y=100&bp=100&seo=100)](https://circleci.com/gh/civictechro/civictechro)
 
 ## Usage
 
