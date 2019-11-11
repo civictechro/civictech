@@ -17,7 +17,11 @@ import logo from '../../static/images/civictech_logo.svg'
 const Layout = ({ children }) => {
   const [mainClass, setMainClass] = useState('')
   useEffect(() => {
-    const webp = window.safari === undefined ? 'webp' : ''
+    const ua = window.navigator.userAgent
+    const iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i)
+    const webkit = !!ua.match(/WebKit/i)
+    const iOSSafari = iOS && webkit && !ua.match(/CriOS/i)
+    const webp = window.safari === undefined || !iOSSafari ? 'webp' : ''
     setMainClass(webp)
   }, [])
   return (
