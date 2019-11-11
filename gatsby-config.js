@@ -57,18 +57,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['PT Serif'],
-        },
-        custom: {
-          families: ['Inter'],
-          urls: ['/fonts/fonts.css'],
-        },
-      },
-    },
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
   ],
