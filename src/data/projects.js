@@ -10,6 +10,7 @@ export const projects = [
   {
     title: 'Meserii.ro',
     img: meserii,
+    name: 'meserii',
     url: 'https://civicnet.ro',
     percent: 100,
     member: 'Civic Net',
@@ -18,6 +19,7 @@ export const projects = [
   {
     title: 'Harta Serviciilor Sociale',
     img: harta,
+    name: 'harta',
     url: 'https://citizennext.ro',
     percent: 65,
     member: 'Citizen Next',
@@ -26,6 +28,7 @@ export const projects = [
   {
     title: 'Parinte.eu',
     img: parinte,
+    name: 'parinte',
     url: 'https://citizennext.ro',
     percent: 15,
     member: 'Citizen Next',
@@ -34,6 +37,7 @@ export const projects = [
   {
     title: 'Open Energy',
     img: openEnergy,
+    name: 'open-energy',
     url: 'https://citizennext.ro',
     percent: 100,
     member: 'Citizen Next',
@@ -42,6 +46,7 @@ export const projects = [
   {
     title: 'Alba Iulia Smart City website de prezentare',
     img: smartCity,
+    name: 'smart-city',
     url: 'https://civicnet.ro',
     percent: 100,
     member: 'Civicnet',
@@ -50,6 +55,7 @@ export const projects = [
   {
     title: 'FiiPregătit.ro - Platforma de informare pentru situații de urgență',
     img: fiiPregatit,
+    name: 'fiipregatit',
     url: 'https://civicnet.ro',
     percent: 100,
     member: 'Civicnet',
