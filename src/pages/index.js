@@ -171,7 +171,7 @@ const IndexPage = () => (
               </div>
               <a href={url} title={`${title}, un proiect ${member}`}>
                 <div className="client">
-                  Un proiect <img src={memberLogo} alt={member} width="80" />
+                  Un proiect <img src={memberLogo} alt={member} width="100" />
                 </div>
               </a>
             </div>
