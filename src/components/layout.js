@@ -17,9 +17,9 @@ import logo from '../../static/images/civictech_logo.svg'
 const Layout = ({ children }) => {
   const [mainClass, setMainClass] = useState('')
   useEffect(() => {
-    let noWebp = window.safari !== undefined ? 'no-webp' : ''
-    setMainClass(noWebp)
-  }, [window])
+    const webp = window.safari === undefined ? 'webp' : ''
+    setMainClass(webp)
+  }, [])
   return (
     <StaticQuery
       query={graphql`
