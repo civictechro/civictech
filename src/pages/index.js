@@ -32,7 +32,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Acasa" />
+      <SEO title="Acasă" />
       <div className={'page-header home'}>
         <img src={impreuna} alt="" />
         <h1>
