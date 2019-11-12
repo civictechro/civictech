@@ -17,6 +17,10 @@ ReactGA.initialize('UA-101116876-1', {
   debug: process.env.NODE_ENV === 'development',
 })
 
+// GDPR compliamnt tracking
+ReactGA.ga("set", "allowAdFeatures", false);
+ReactGA.ga("set", "anonymizeIp", true);
+
 const IndexPage = () => {
   const { allFile } = useStaticQuery(
     graphql`
