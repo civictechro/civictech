@@ -82,11 +82,6 @@ const Layout = ({ children }) => {
                           </Anchor>
                         </li>
                         <li>
-                          <Anchor href="/#partners" title={'Parteneri'}>
-                            Parteneri
-                          </Anchor>
-                        </li>
-                        <li>
                           <Anchor href="/#contact" title={'Contact'}>
                             Contact
                           </Anchor>

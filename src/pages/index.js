@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { Circle } from 'rc-progress'
@@ -11,6 +11,11 @@ import 'react-tabs/style/react-tabs.css'
 import citizen from '../../static/images/citizennext.svg'
 import civicnet from '../../static/images/civicnet.svg'
 import { projects } from '../data/projects'
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-101116876-1', {
+  debug: process.env.NODE_ENV === 'development',
+})
 
 const IndexPage = () => {
   const { allFile } = useStaticQuery(
@@ -29,6 +34,11 @@ const IndexPage = () => {
       }
     `,
   )
+
+  useEffect(() => {
+    ReactGA.pageview('/');
+  }, [])
+
   return (
     <Layout>
       <SEO title="Acasa" />
