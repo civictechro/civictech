@@ -9,8 +9,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
-
-function SEO({ description, lang, meta, title, banner }) {
+import banner from '../../static/images/civictech-banner.jpg'
+function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,7 +19,6 @@ function SEO({ description, lang, meta, title, banner }) {
             title
             description
             author
-            banner
           }
         }
       }
@@ -82,7 +81,7 @@ function SEO({ description, lang, meta, title, banner }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `ro`,
   meta: [],
   description: ``,
 }
