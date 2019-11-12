@@ -3,6 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
+import ReactGA from 'react-ga';
 
 export const onServiceWorkerUpdateReady = () => {
   const answer = window.confirm(
@@ -12,3 +13,15 @@ export const onServiceWorkerUpdateReady = () => {
     window.location.reload()
   }
 }
+
+ReactGA.initialize('UA-101116876-1', {
+  debug: process.env.NODE_ENV === 'development',
+})
+
+// GDPR compliant tracking
+ReactGA.ga("set", "allowAdFeatures", false);
+ReactGA.ga("set", "anonymizeIp", true);
+  
+export const onRouteUpdate = (state, page, pages) => {
+  ReactGA.pageview(state.location.pathname);
+};
