@@ -11,15 +11,6 @@ import 'react-tabs/style/react-tabs.css'
 import citizen from '../../static/images/citizennext.svg'
 import civicnet from '../../static/images/civicnet.svg'
 import { projects } from '../data/projects'
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('UA-101116876-1', {
-  debug: process.env.NODE_ENV === 'development',
-})
-
-// GDPR compliamnt tracking
-ReactGA.ga("set", "allowAdFeatures", false);
-ReactGA.ga("set", "anonymizeIp", true);
 
 const IndexPage = () => {
   const { allFile } = useStaticQuery(
@@ -38,10 +29,6 @@ const IndexPage = () => {
       }
     `,
   )
-
-  useEffect(() => {
-    ReactGA.pageview('/');
-  }, [])
 
   return (
     <Layout>
