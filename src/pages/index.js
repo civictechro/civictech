@@ -60,23 +60,23 @@ const IndexPage = () => {
 
             <TabPanel>
               <p>
-                Lansat în primăvara lui 2017, Civictech România a pornit ca un start-up neguvernamental și non profit,
+                Lansat în primăvara lui 2017, Civictech România a pornit ca un start-up neguvernamental și nonprofit,
                 fondat fiind de ex-bursieri <Anchor href="https://ithub.gov.ro">GovITHub</Anchor>. Ne-am propus să
                 continuăm, alături de parteneri ai societății civile, proiecte care să aducă România mai aproape de
                 viziunea care ne unește.
               </p>
 
               <p>
-                După mai bine de doi ani de activitate si crestere susținută, în 2019, Civictech România evolueaza catre
-                ceea ce numele nostru a intuit neintentionat inca de la bun inceput: o viitoare federatie de organizatii
-                care au in misiune o Romanie informatizata si conectata prin digitalizare.
+                După mai bine de doi ani de activitate si crestere susținută, în 2019, Civictech România evoluează către
+                ceea ce numele nostru a intuit neintenționat încă de la bun început: o viitoare federație de organizații
+                care au în misiune o Românie informatizată și conectată prin digitalizare.
               </p>
 
               <p>
-                Citizen Next și CivicNet au devenit astfel primele organizatii cofondatoare ale viitoarei federatiei si
-                continuatoarele viziunii si misiunii Civictech România. Lansam astfel invitatia catre toate
-                organizatiile care lucreaza la proiecte civice de digitalizare sa ni se alature. Impreuna, ca parteneri
-                egali, vrem sa dezvoltam aceasta federatie, sa ii definim noua identitate si sa ii crestem impactul in
+                Citizen Next și CivicNet au devenit astfel primele organizații cofondatoare ale viitoarei federații și
+                continuatoarele viziunii și misiunii Civictech România. Lansăm astfel invitația către toate
+                organizațiile care lucrează la proiecte civice de digitalizare să ni se alăture. Împreună, ca parteneri
+                egali, vrem să dezvoltăm această federație, să îi definim noua identitate și să îi creștem impactul în
                 societate.
               </p>
             </TabPanel>
