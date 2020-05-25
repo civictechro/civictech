@@ -50,7 +50,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build --output-dir",
+    "build": "gatsby build",
     "format": "prettier --config ./.prettierrc --write src/**/*.{js,jsx}",
     "serve": "gatsby serve",
     "clean": "rm -rf .cache && yarn start",
