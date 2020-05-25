@@ -4,9 +4,18 @@ import citizennext from '../../static/images/citizen.svg'
 import civicnet from '../../static/images/civicnet.svg'
 import fiiPregatit from '../../static/images/projects/fiipregatit.png'
 import meserii from '../../static/images/projects/meserii.png'
-import harta from '../../static/images/projects/harta.png'
+import harta from '../../static/images/projects/harta.jpg'
 import parinte from '../../static/images/projects/parinte.png'
 export const projects = [
+  {
+    title: 'Harta Serviciilor Sociale',
+    img: harta,
+    name: 'harta',
+    url: 'https://serviciisociale.ro',
+    percent: 100,
+    member: 'Citizen Next',
+    memberLogo: citizennext,
+  },
   {
     title: 'Meserii.ro',
     img: meserii,
@@ -16,15 +25,7 @@ export const projects = [
     member: 'Civic Net',
     memberLogo: civicnet,
   },
-  {
-    title: 'Harta Serviciilor Sociale',
-    img: harta,
-    name: 'harta',
-    url: 'https://citizennext.ro',
-    percent: 65,
-    member: 'Citizen Next',
-    memberLogo: citizennext,
-  },
+
   {
     title: 'Parinte.eu',
     img: parinte,
